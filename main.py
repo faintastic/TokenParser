@@ -29,7 +29,7 @@ class Parser:
                     break
             
             if chosen == None:
-                Logger.Sprint("ERROR", f"Could not find token in object {s}input={r}{object}")
+                Logger.Sprint("ERROR", f"Could not find token in object {s}input={r}{object}", Fore.RED)
                 return None
             else:
                 return chosen
